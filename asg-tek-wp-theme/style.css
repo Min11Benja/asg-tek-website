@@ -1,0 +1,87 @@
+/*!
+Theme Name: asg-tek
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: asg-tek
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+asg-tek is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/* each navigation item anchor*/
+
+/*Author Box Style*/
+.author_bio_section{
+background: none repeat scroll 0 0 #F5F5F5;
+padding: 15px;
+border: 1px solid #ccc;
+}
+ 
+.author_name{
+font-size:16px;
+font-weight: bold;
+}
+ 
+.author_details img {
+border: 1px solid #D8D8D8;
+border-radius: 50%;
+float: left;
+margin: 0 10px 10px 0;
+}
+.media img{
+    width: 55px;
+    height: auto;
+}
+.avatar {
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+.dropdown .mega-inner-nav li a {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+}
+
+.top-bar .list-inline .list-inline-item a {
+    padding-bottom: 10px;
+
+}
+/*Form style*/

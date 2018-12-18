@@ -1,0 +1,183 @@
+/*Left to Right Hover Effect Nav Bar*/
+
+.nav-item a {
+  
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+.nav-item a:before, .nav-item a:after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #acc114;
+}
+.nav-item a:before {
+  opacity: 0;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav-item a:after {
+  opacity: 0;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav-item a:hover:before, .nav-item a:hover:after, .nav-item a:focus:before, .nav-item a:focus:after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.nav-item a:hover:before, .nav-item a:focus:before {
+  transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav-item a:hover:after, .nav-item a:focus:after {
+  transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.blue-asg{
+    color: #3cb4e5;
+}
+
+.icon-bg h3 {
+
+    color: #fff;
+    font-size: 45px;
+
+}
+
+h1, .h1 {
+
+    font-size: 50px;
+
+}
+
+.footer.footer-asg-dark {
+
+    background: #4d4d4d;
+
+}
+
+
+
+
+.navbar-nav {
+
+    margin-right: 0px;
+
+}
+
+.left {
+ float: left;
+ padding: 0 20px 20px 0;
+}
+
+#industrias{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.botom-banner-blue{
+    background-color: #004d71;
+}
+
+.botom-banner-sky{
+    background-color: #3cb4e5;
+}
+
+.nav-tabs {
+    padding-top: 3px;
+    border-bottom: 3px solid #ddd;
+
+}
+
+.top-gray-border{
+     border-top: 3px solid #ddd;
+}
+
+.bot-gray-border{
+     border-bottom: 3px solid #ddd;
+}
+
+.promo-box.promo-border {
+
+    border: 3px solid #eee;
+    padding: 30px 30px 20px;
+
+}
+
+.bg-rainbow-asg{
+background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contact-list-item li i {
+
+    border: 1px solid #4e4c3c;
+}
+
+.icon-border-box {
+
+    border: 3px solid #eee;
+    padding: 30px 20px 15px;
+
+}
+
+.footer p,a {
+
+    color: #4e4c3c;
+
+}
+
+.footer-list-item li a {
+
+    color: #4e4c3c;
+
+}
+
+.footer-list-item li a:hover {
+
+    color: #3cb4e5;
+
+}
+
+.dropdown-menu .dropdown-item, .mega-inner-nav li a{
+    color: #4e4c3c;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 46%;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+ 
+  border-radius: .25rem;
+}

@@ -1,0 +1,292 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .team-card .team-overlay .team-detail span {
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 1280px) {
+
+
+    .team-card .team-overlay .team-detail span {
+        font-size: 17px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (max-width: 1024px) {
+    .navbar-brand img {
+
+        width: 255px;
+
+    }
+}
+
+
+/*Ipad Pro*/
+
+@media (max-width: 835px) {
+
+
+
+    .navbar-brand img {
+
+        width: 255px;
+
+    }
+
+    .navbar-toggler-right {
+
+        position: absolute;
+        right: 1.2rem;
+        top: 15px;
+
+    }
+
+    .fullscreen {
+
+        height: 50%;
+
+    }
+
+    .team-card .team-overlay .team-detail span {
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+}
+
+
+/*Kindle Fire*/
+
+@media (max-width: 801px) {
+
+
+
+    .navbar-brand img {
+
+        width: 250px;
+
+    }
+
+    .navbar-toggler-right {
+
+        position: absolute;
+        right: 1.2rem;
+        top: 15px;
+
+    }
+
+    .fullscreen {
+
+        height: 50%;
+
+    }
+
+    .team-card .team-overlay .team-detail span {
+        font-size: 18px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+
+    .icon-bg h3 {
+
+        color: #fff;
+        font-size: 30px;
+        line-height: 1.2;
+
+    }
+
+    .navbar-brand img {
+
+        width: 240px;
+
+    }
+
+    .navbar-toggler-right {
+
+        position: absolute;
+        right: 1.2rem;
+        top: 15px;
+
+    }
+
+
+    .fullscreen {
+
+        height: 50%;
+
+    }
+
+    .team-card .team-overlay .team-detail span {
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+}
+
+
+/*/////////////////////////////////////////////////////////////////*/
+
+/*mobile iPhone Plus - 414 px*/
+
+@media screen and (max-width: 415px) {
+
+    .navbar-toggler-right {
+
+        position: absolute;
+        right: 1rem;
+        top: 10px;
+
+    }
+
+    .navbar-brand img {
+
+        width: 220px;
+
+    }
+
+    .fullscreen {
+
+        height: 60%;
+
+    }
+
+    .team-card .team-overlay .team-detail span {
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+}
+
+/*mobile -iPhone 6/7/8 - 375 px*/
+
+@media screen and (max-width: 376px) {
+
+    .navbar-toggler-right {
+
+        position: absolute;
+        right: 1rem;
+        top: 10px;
+
+    }
+
+    .navbar-brand img {
+
+        width: 200px;
+
+    }
+
+    .fullscreen {
+
+        height: 70%;
+
+    }
+
+    .h3 {
+
+        font-size: 1.2em;
+        line-height: 1.2em;
+
+    }
+
+    .team-card .team-overlay .team-detail span {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .team-card .team-overlay .team-detail .seprator-overlay {
+
+        margin: 5px auto;
+
+    }
+}
+
+/*mobile -samsung Galaxy s9/s9+ - 361 px*/
+
+@media screen and (max-width: 361px) {
+
+    #hero p {
+        font font-size: .9em;
+    }
+
+
+
+    .h3 {
+
+        font-size: 1.4em;
+        line-height: 1.5em;
+
+    }
+
+
+
+    .navbar-brand img {
+
+        width: 190px;
+
+    }
+
+    .navbar-toggler-right {
+
+        position: absolute;
+        right: 1rem;
+        top: 10px;
+
+    }
+
+    .fullscreen {
+
+        height: 40%;
+
+    }
+
+
+    .team-card .team-overlay .team-detail span {
+        font-size: 14px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+}
